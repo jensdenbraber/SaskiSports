@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SaskiSports.Android", "SaskiSports\SaskiSports.Android\SaskiSports.Android.csproj", "{E8C6B86A-6BCB-408D-9509-D50AD5CDEE48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SaskiSports", "SaskiSports\SaskiSports\SaskiSports.csproj", "{ECAD4A4F-6A5C-4986-8A4F-8B75F8696C4A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E8C6B86A-6BCB-408D-9509-D50AD5CDEE48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8C6B86A-6BCB-408D-9509-D50AD5CDEE48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8C6B86A-6BCB-408D-9509-D50AD5CDEE48}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{E8C6B86A-6BCB-408D-9509-D50AD5CDEE48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8C6B86A-6BCB-408D-9509-D50AD5CDEE48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8C6B86A-6BCB-408D-9509-D50AD5CDEE48}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{ECAD4A4F-6A5C-4986-8A4F-8B75F8696C4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECAD4A4F-6A5C-4986-8A4F-8B75F8696C4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECAD4A4F-6A5C-4986-8A4F-8B75F8696C4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECAD4A4F-6A5C-4986-8A4F-8B75F8696C4A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8794F97A-B293-407C-AED0-0081D9534DC3}
+	EndGlobalSection
+EndGlobal

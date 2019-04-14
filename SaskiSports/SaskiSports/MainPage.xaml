@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="SaskiSports.MainPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:SaskiSports"
+    Title="Saski Sports">
+    <ContentPage.BindingContext>
+        <local:MainViewModel />
+    </ContentPage.BindingContext>
+    <StackLayout BackgroundColor="{Binding AppBackgroundColor}">
+        <Label
+            FontSize="56"
+            HorizontalOptions="CenterAndExpand"
+            Text="Saski Sports"
+            TextColor="White"
+            VerticalOptions="Center" />
+
+        <Label
+            FontSize="78"
+            HorizontalOptions="Center"
+            Text="{Binding SelectedTime, StringFormat='{0:T}'}"
+            TextColor="White"
+            VerticalOptions="CenterAndExpand" />
+
+        <StackLayout
+            HorizontalOptions="Center"
+            Orientation="Horizontal"
+            VerticalOptions="CenterAndExpand">
+            <Label
+                FontSize="24"
+                Text="Number of Rounds:"
+                TextColor="White" />
+            <Label
+                FontSize="24"
+                Text="{Binding NumberOfRounds}"
+                TextColor="White" />
+        </StackLayout>
+
+        <Label
+            FontSize="24"
+            HorizontalOptions="Center"
+            Text="Total workout time"
+            TextColor="White"
+            VerticalOptions="Center" />
+
+        <Label
+            FontSize="24"
+            HorizontalOptions="Center"
+            Text="{Binding TotalWorkOutTime, StringFormat='{0:T}'}"
+            TextColor="White"
+            VerticalOptions="Center" />
+
+        <StackLayout
+            HorizontalOptions="Center"
+            Orientation="Horizontal"
+            VerticalOptions="CenterAndExpand">
+            <Button
+                BackgroundColor="Blue"
+                Command="{Binding ButtonStart_Clicked}"
+                HorizontalOptions="Center"
+                Text="Start"
+                TextColor="White"
+                VerticalOptions="CenterAndExpand" />
+
+            <Button
+                BackgroundColor="Blue"
+                Command="{Binding ButtonStop_Clicked}"
+                HorizontalOptions="Center"
+                Text="Stop"
+                TextColor="White"
+                VerticalOptions="CenterAndExpand" />
+        </StackLayout>
+    </StackLayout>
+</ContentPage>
