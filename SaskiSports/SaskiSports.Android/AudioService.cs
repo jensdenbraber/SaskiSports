@@ -18,6 +18,7 @@ namespace SaskiSports.Droid
             };
             player.SetDataSource(fd.FileDescriptor, fd.StartOffset, fd.Length);
             player.Prepare();
+            player.SetVolume(1, 1);
         }
     }
 }
